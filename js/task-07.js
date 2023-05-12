@@ -6,9 +6,9 @@
 <span id="text">Abracadabra!</span>
 */
 
-document.querySelector('body').style.backgroundColor = '#eaf1fad0';
-const inputRangeRef = document.getElementById('font-size-control');
-const textRef = document.getElementById('text');
+document.querySelector("body").style.backgroundColor = "#eaf1fad0";
+const inputRangeRef = document.getElementById("font-size-control");
+const textRef = document.getElementById("text");
 
 // var 1
 /*
@@ -21,4 +21,4 @@ function fontSizeControl(event) {
 const fontSizeControl = ({ currentTarget }) =>
   (textRef.style.fontSize = `${currentTarget.value}px`);
 
-inputRangeRef.addEventListener('input', fontSizeControl);
+inputRangeRef.addEventListener("input", fontSizeControl);

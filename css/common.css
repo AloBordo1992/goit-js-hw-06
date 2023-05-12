@@ -22,3 +22,17 @@ button {
   padding: 8px 12px;
   cursor: pointer;
 }
+
+.gallery {
+  display: flex;
+  row-gap: 16px;
+  column-gap: 24px;
+  
+}
+ 
+img {
+  display: block;
+  border-radius: 5px;
+  outline: 2px solid orange;
+    outline-offset: -2px;
+}
